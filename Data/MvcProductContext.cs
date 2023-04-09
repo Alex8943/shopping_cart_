@@ -13,7 +13,6 @@ namespace shopping_cart_.Data
             : base(options)
         {
         }
-
         public DbSet<shopping_cart_.Models.Product> Product { get; set; } = default!;
     }
 }

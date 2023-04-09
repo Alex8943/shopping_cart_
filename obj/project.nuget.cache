@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dibWyHSGlt5T2nTrSQBWoQatDaN9pXi3ZD+xGBCgH4UXqW8ExGCD2c+mixfbs8eDaOSBijLLFOaYwKuGI25YSQ==",
+  "dgSpecHash": "dFd5586iFWe7yMwr+PPI7xFNZcfU0D9EmT57ynUEysdFQKdq27gsgPZYhBXkIVazC+2XoYPAARZgjl2CaihplQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\Ny mappe\\shopping_cart_\\shopping_cart_.csproj",
+  "projectFilePath": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\shopping_cart_\\shopping_cart_.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alexa\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\alexa\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

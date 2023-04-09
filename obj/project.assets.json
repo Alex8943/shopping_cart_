@@ -10939,11 +10939,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\Ny mappe\\shopping_cart_\\shopping_cart_.csproj",
+      "projectUniqueName": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\shopping_cart_\\shopping_cart_.csproj",
       "projectName": "shopping_cart_",
-      "projectPath": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\Ny mappe\\shopping_cart_\\shopping_cart_.csproj",
+      "projectPath": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\shopping_cart_\\shopping_cart_.csproj",
       "packagesPath": "C:\\Users\\alexa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\Ny mappe\\shopping_cart_\\obj\\",
+      "outputPath": "C:\\Users\\alexa\\OneDrive - Københavns Erhvervsakademi\\SoftwareDevelupment\\DevelupmentOfLargeSystem\\shopping_cart_\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alexa\\AppData\\Roaming\\NuGet\\NuGet.Config",

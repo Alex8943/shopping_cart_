@@ -1,10 +1,11 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using shopping_cart_.Data;
+using shopping_cart_.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 if (builder.Environment.IsDevelopment())
 {
-    /
     builder.Services.AddDbContext<DbContext>(options =>
         options.UseSqlite(builder.Configuration.GetConnectionString("MvcProductContext")));
 }
@@ -18,13 +19,19 @@ else
 
 
 builder.Services.AddDbContext<MvcProductContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("MvcProductContext") ?? 
-    throw new InvalidOperationException("Connection string 'MvcProductContext' not found.")));
+    options.UseSqlite(builder.Configuration.GetConnectionString("MvcProductContext")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    SeedData.Initialize(services);
+}
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -36,13 +43,10 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
 app.UseAuthorization();
 
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
-
 app.Run();
