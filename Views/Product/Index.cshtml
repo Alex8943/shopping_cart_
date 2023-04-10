@@ -38,17 +38,12 @@
                 @Html.DisplayFor(modelItem => item.Origin)
             </td>
             <td>
-                <div class="btn btn-primary">
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> 
-                </div>
-
-                <div class="btn btn-primary">
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> 
-                </div>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">Edit</a> 
                 
-                <div class="btn btn-danger">
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-                </div>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a> 
+                
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger" >Delete</a>
+              
             </td>
         </tr>
 }
